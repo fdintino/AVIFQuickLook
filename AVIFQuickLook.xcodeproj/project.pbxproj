@@ -16,6 +16,9 @@
 		32581D5822645F8B00E36BB6 /* libaom.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 32581D5522645F8B00E36BB6 /* libaom.a */; };
 		32581D5922645F8B00E36BB6 /* libavif.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 32581D5622645F8B00E36BB6 /* libavif.a */; };
 		32581D5A22645F8B00E36BB6 /* libgb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 32581D5722645F8B00E36BB6 /* libgb.a */; };
+		D15C1AFE25A3EA23001C8F9A /* libyuv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D15C1AFD25A3EA23001C8F9A /* libyuv.a */; };
+		D15C1B0025A3EA3E001C8F9A /* libdav1d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D15C1AFF25A3EA3E001C8F9A /* libdav1d.a */; };
+		D15C1B0625A3EB13001C8F9A /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D15C1B0525A3EAFA001C8F9A /* libc++.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +33,9 @@
 		32581D5522645F8B00E36BB6 /* libaom.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libaom.a; path = Dependency/lib/libaom.a; sourceTree = "<group>"; };
 		32581D5622645F8B00E36BB6 /* libavif.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavif.a; path = Dependency/lib/libavif.a; sourceTree = "<group>"; };
 		32581D5722645F8B00E36BB6 /* libgb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libgb.a; path = Dependency/lib/libgb.a; sourceTree = "<group>"; };
+		D15C1AFD25A3EA23001C8F9A /* libyuv.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libyuv.a; path = Dependency/lib/libyuv.a; sourceTree = "<group>"; };
+		D15C1AFF25A3EA3E001C8F9A /* libdav1d.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libdav1d.a; path = Dependency/lib/libdav1d.a; sourceTree = "<group>"; };
+		D15C1B0525A3EAFA001C8F9A /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,9 +43,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D15C1B0025A3EA3E001C8F9A /* libdav1d.a in Frameworks */,
 				32581D5822645F8B00E36BB6 /* libaom.a in Frameworks */,
 				32581D5922645F8B00E36BB6 /* libavif.a in Frameworks */,
+				D15C1AFE25A3EA23001C8F9A /* libyuv.a in Frameworks */,
 				32581D5A22645F8B00E36BB6 /* libgb.a in Frameworks */,
+				D15C1B0625A3EB13001C8F9A /* libc++.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,6 +105,9 @@
 		32581D5422645F8B00E36BB6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D15C1B0525A3EAFA001C8F9A /* libc++.tbd */,
+				D15C1AFF25A3EA3E001C8F9A /* libdav1d.a */,
+				D15C1AFD25A3EA23001C8F9A /* libyuv.a */,
 				32581D5522645F8B00E36BB6 /* libaom.a */,
 				32581D5622645F8B00E36BB6 /* libavif.a */,
 				32581D5722645F8B00E36BB6 /* libgb.a */,
